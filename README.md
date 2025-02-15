@@ -1,1 +1,3 @@
 # Dissertation-Solving-IK-With-Neural-Network
+
+All the code implemented during this project is in the four files provided. Once unpacked, you will need to run the following command on an admin powershell window: "pip install matplotlib, numpy". After this, IKNN.py will be able to be run from a terminal straight away. Simply open a terminal at the directory of the code files and enter "python IKNN.py". If you want to run FKNN.py you will need to open backprop_NN.py, comment out line 74 and uncomment line 77. This changes the delta member used during backpropagation. When wanting to go back to IKNN.py, make sure to comment out line 77 and uncomment line 74 so everything works as intended.
